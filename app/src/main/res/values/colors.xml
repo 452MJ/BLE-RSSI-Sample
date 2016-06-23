@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#058aff</color>
+    <color name="colorPrimaryDark">#3162be</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="distance_high">#058aff</color>
+    <color name="distance_mid">#3162be</color>
+    <color name="distance_low">@color/colorAccent</color>
+
+    <color name="device_connected">@color/colorAccent</color>
+    <color name="device_disconnected">@color/colorPrimary</color>
+
+    <color name="basePress">#3162be</color>
+    <color name="baseRelease">#3c3162be</color>
+    <color name="ballPress">#058aff</color>
+    <color name="ballRelease">#ffffff</color>
+    <color name="textColor">#ffffff</color>
+    <color name="lineColor">#c4524a4a</color>
+</resources>

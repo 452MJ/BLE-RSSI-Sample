@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appbar"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/toolbar"
+            android:title=""
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/activity_main_container"
+        android:layout_below="@id/appbar"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btn_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_bluetooth_searching_white"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <!--<com.github.glomadrian.materialanimatedswitch.MaterialAnimatedSwitch-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignTop="@+id/btn_scan"-->
+        <!--android:layout_toStartOf="@+id/btn_scan"-->
+        <!--app:base_release_color="@color/baseRelease"-->
+        <!--app:base_press_color="@color/basePress"-->
+        <!--app:ball_release_color="@color/ballRelease"-->
+        <!--app:ball_press_color="@color/ballPress"-->
+        <!--app:icon_release="@drawable/ic_bluetooth_off_black"-->
+        <!--app:icon_press="@drawable/ic_bluetooth_on_white"-->
+        <!--/>-->
+
+</RelativeLayout>
