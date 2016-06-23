@@ -18,6 +18,7 @@ import java.util.Map;
  */
 public class BLEListViewAdapter extends RecyclerView.Adapter<BLEListViewAdapter.ViewHolder>{
 
+    //数据集
     private List<BLEObj> mList = new ArrayList<>();
 
     OnItemClickListener onItemClickListener;
